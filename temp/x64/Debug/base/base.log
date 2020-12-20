@@ -1,0 +1,7 @@
+﻿  app.cpp
+  dependencies.cpp
+  example.cpp
+  main.cpp
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\example.cpp(25,28): warning C4100: 'deltaT': unreferenced formal parameter
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\app.cpp(43,24): warning C4100: 'deltaT': unreferenced formal parameter
+  base.vcxproj -> C:\Users\97150\Documents\GitHub\gad173breakoutgame\bin\base_d.exe
