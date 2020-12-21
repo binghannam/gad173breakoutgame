@@ -34,7 +34,7 @@ public:
 	sf::Sprite* frost;
 	sf::Sprite* sprites[3];
 	sf::Sprite* rock;
-	sf::Sprite* bar;
+	sf::Texture* bar;
 	sf::Sprite* smallrock;
 	sf::Sprite tiles[TILES_ARRAY_SIZE];
 	sf::Texture smallrocks;
