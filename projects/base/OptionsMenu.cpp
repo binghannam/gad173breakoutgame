@@ -27,6 +27,8 @@ bool OptionsMenu::start()
 	texts[0].setPosition(sf::Vector2f(480, 120));
 	texts[1].setPosition(sf::Vector2f(10, 100));
 	texts[2].setPosition(sf::Vector2f(480, 140));
+
+
 	texts[1].setString("The following options are available:");
 	texts[2].setString("Whatever");
 	texts[0].setString("Exit");

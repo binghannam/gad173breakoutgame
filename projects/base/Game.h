@@ -35,9 +35,9 @@ public:
 	sf::Sprite* sprites[3];
 	sf::Sprite* rock;
 	sf::Sprite* bar;
-
+	sf::Sprite* smallrock;
 	sf::Sprite tiles[TILES_ARRAY_SIZE];
-
+	sf::Texture smallrocks;
 	sf::RectangleShape hLine[TOTAL_CELLS_Y];
 
 	sf::RectangleShape vLine[TOTAL_CELLS_X];

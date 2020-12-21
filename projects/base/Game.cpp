@@ -28,11 +28,12 @@ bool Game::start()
 	}
 	bar = kage::TextureManager::getSprite("data/bar.png");
 	frost = kage::TextureManager::getSprite("data/frost.png");
-	rock = kage::TextureManager::getSprite("data/smallrock.png");
-	
-	sf::Sprite tiles;
+	smallrock = kage::TextureManager::getSprite("data/smallrock.png");
+	sf::Sprite tiles; 
 
-	sf::Sprite rock;
+	sf::Sprite smallrock;
+	sf::Texture smallrocks;
+
 	
 	return true;
 
@@ -41,6 +42,7 @@ bool Game::start()
 
 void Game::update(float deltaT)
 {
+
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape) && m_window.hasFocus())
 	{
@@ -53,13 +55,24 @@ void Game::update(float deltaT)
 		m_running = false;
 	}
 	ImGui::End();
+
+	sf::Vector2i mousePosition = sf::Mouse::getPosition(m_window);
+
+
+	if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left)) 
+	
+	{
+		sf::Sprite rockSprite;
+		rockSprite.setPosition(sf::Vector2f(mousePosition.x, 500));
+	
+	}
 }
 
 void Game::render(sf::RenderWindow& m_window)
 {
 	
 	m_window.draw(*frost);
-	m_window.draw(*rock);
+	m_window.draw(*smallrock);
 
 	for (size_t i = 0; i < TOTAL_CELLS_X; i++)
 	{

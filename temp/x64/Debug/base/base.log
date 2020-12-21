@@ -1,2 +1,42 @@
-﻿  SceneManager.cpp
+﻿  Game.cpp
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.h(6,1): warning C4005: 'LINE_THICKNESS': macro redefinition
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\example.h(3): message : see previous definition of 'LINE_THICKNESS'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.h(8,1): warning C4005: 'GRID_OFFSET_X': macro redefinition
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\example.h(5): message : see previous definition of 'GRID_OFFSET_X'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.h(10,1): warning C4005: 'GRID_OFFSET_Y': macro redefinition
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\example.h(6): message : see previous definition of 'GRID_OFFSET_Y'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.h(13,1): warning C4005: 'CELL_WIDTH': macro redefinition
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\example.h(11): message : see previous definition of 'CELL_WIDTH'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.h(15,1): warning C4005: 'CELL_HEIGHT': macro redefinition
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\example.h(12): message : see previous definition of 'CELL_HEIGHT'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(19,51): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(26,66): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(32,18): warning C4458: declaration of 'tiles' hides class member
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.h(39,13): message : see declaration of 'Game::tiles'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(34,22): warning C4458: declaration of 'smallrock' hides class member
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.h(38,14): message : see declaration of 'Game::smallrock'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(35,24): warning C4458: declaration of 'smallrocks' hides class member
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.h(40,14): message : see declaration of 'Game::smallrocks'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(66,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(43,25): warning C4100: 'deltaT': unreferenced formal parameter
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(71,37): warning C4458: declaration of 'm_window' hides class member
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\app.h(22,19): message : see declaration of 'App::m_window'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(99,14): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(99,14): warning C4154: deletion of an array expression; conversion to pointer supplied
   base.vcxproj -> C:\Users\97150\Documents\GitHub\gad173breakoutgame\bin\base_d.exe
