@@ -1,5 +1,8 @@
-﻿  OptionsMenu.cpp
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\OptionsMenu.cpp(37,32): warning C4100: 'deltaT': unreferenced formal parameter
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\OptionsMenu.cpp(46,44): warning C4458: declaration of 'm_window' hides class member
+﻿  Game.cpp
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(19,17): warning C4458: declaration of 'rock' hides class member
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.h(18,14): message : see declaration of 'Game::rock'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(28,18): error C2228: left of '.setPosition' must have class/struct/union
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(28,18): message : type is 'sf::Sprite *'
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(28,18): message : did you intend to use '->' instead?
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(42,37): warning C4458: declaration of 'm_window' hides class member
 C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\app.h(22,19): message : see declaration of 'App::m_window'
-  base.vcxproj -> C:\Users\97150\Documents\GitHub\gad173breakoutgame\bin\base_d.exe

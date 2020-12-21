@@ -13,6 +13,7 @@ public:
 	 void cleanup();
 
 	sf::Sprite* frost;
-
-
+	sf::Sprite* bar;
+	sf::Sprite* tiles;
+	sf::Sprite* rock;
 };
