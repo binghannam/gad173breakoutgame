@@ -52,6 +52,7 @@ void Game::update(float deltaT)
 		sf::Sprite barSprite;
 		barSprite.setTexture(*bar);
 		barSprite.setPosition(sf::Vector2f(mousePosition.x * deltaT, 600));
+	
 		tiles[0] = barSprite;
 	}
 
