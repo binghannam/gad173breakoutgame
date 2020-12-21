@@ -12,7 +12,7 @@ Game::~Game()
 
 bool Game::start()
 {
-	frost = kage::TextureManager::getSprite("./data/frost.png");
+	frost = kage::TextureManager::getSprite("data/frost.png");
 	return true;
 }
 

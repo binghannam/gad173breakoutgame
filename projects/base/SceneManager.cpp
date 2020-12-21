@@ -1,7 +1,7 @@
 #include "SceneManager.h"
 
 
-void SceneManager::Run(int m_index)
+void SceneManager::Run(int index)
 {
 	m_index = index;
 

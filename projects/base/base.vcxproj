@@ -98,7 +98,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="app.h" />
-    <ClInclude Include="Engine.h" />
     <ClInclude Include="example.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="OptionsMenu.h" />

@@ -1,6 +1,7 @@
 #include "example.h"
 
 
+
 Example::Example(): App()
 {
 	
@@ -42,8 +43,8 @@ void Example::update(float deltaT)
 }
 
 void Example::render()
-{
-	sceneManager.Render();
+ {
+	sceneManager.Render(m_window);
 }
 
 void Example::cleanup()

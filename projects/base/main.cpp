@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	Example example;
-
+	
 	example.run();
 
 	

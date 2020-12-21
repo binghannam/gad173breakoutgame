@@ -1,16 +1,5 @@
-﻿  example.cpp
-  Game.cpp
-  main.cpp
-  OptionsMenu.cpp
-  SceneManager.cpp
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\SceneManager.cpp(4,28): warning C4458: declaration of 'm_index' hides class member
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\SceneManager.h(10,6): message : see declaration of 'SceneManager::m_index' (compiling source file SceneManager.cpp)
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\SceneManager.cpp(6,12): error C2065: 'index': undeclared identifier
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(19,25): warning C4100: 'deltaT': unreferenced formal parameter
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\Game.cpp(34,37): warning C4458: declaration of 'm_window' hides class member
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\app.h(22,19): message : see declaration of 'App::m_window' (compiling source file Game.cpp)
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\example.cpp(46,22): error C2660: 'SceneManager::Render': function does not take 0 arguments
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\SceneManager.h(18,7): message : see declaration of 'SceneManager::Render' (compiling source file example.cpp)
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\OptionsMenu.cpp(20,32): warning C4100: 'deltaT': unreferenced formal parameter
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\OptionsMenu.cpp(35,44): warning C4458: declaration of 'm_window' hides class member
-C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\app.h(22,19): message : see declaration of 'App::m_window' (compiling source file OptionsMenu.cpp)
+﻿  OptionsMenu.cpp
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\OptionsMenu.cpp(37,32): warning C4100: 'deltaT': unreferenced formal parameter
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\OptionsMenu.cpp(46,44): warning C4458: declaration of 'm_window' hides class member
+C:\Users\97150\Documents\GitHub\gad173breakoutgame\projects\base\app.h(22,19): message : see declaration of 'App::m_window'
+  base.vcxproj -> C:\Users\97150\Documents\GitHub\gad173breakoutgame\bin\base_d.exe
