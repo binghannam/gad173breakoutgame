@@ -12,10 +12,26 @@ Game::~Game()
 
 bool Game::start()
 {
+	for (size_t i = 0; i < TOTAL_CELLS_X; i++)
+	{
+		vLine[i] = sf::RectangleShape(sf::Vector2f(LINE_THICKNESS, CELL_HEIGHT * TOTAL_CELLS_Y));
+		vLine[i].setFillColor(sf::Color::Green);
+		vLine[i].setPosition(sf::Vector2f(GRID_OFFSET_X + CELL_WIDTH * i, GRID_OFFSET_Y));
+
+	}
+	for (size_t i = 0; i < TOTAL_CELLS_X; i++)
+	{
+		hLine[i] = sf::RectangleShape(sf::Vector2f( CELL_WIDTH * TOTAL_CELLS_X, LINE_THICKNESS));
+		hLine[i].setFillColor(sf::Color::Green);
+		hLine[i].setPosition(sf::Vector2f(GRID_OFFSET_X, GRID_OFFSET_Y + CELL_HEIGHT * i ));
+
+	}
 	bar = kage::TextureManager::getSprite("data/bar.png");
-	bar = kage::TextureManager::getSprite("data/tiles.png");
 	frost = kage::TextureManager::getSprite("data/frost.png");
 	rock = kage::TextureManager::getSprite("data/smallrock.png");
+	
+	sf::Sprite tiles;
+
 	sf::Sprite rock;
 	
 	return true;
@@ -44,6 +60,23 @@ void Game::render(sf::RenderWindow& m_window)
 	
 	m_window.draw(*frost);
 	m_window.draw(*rock);
+
+	for (size_t i = 0; i < TOTAL_CELLS_X; i++)
+	{
+		m_window.draw(vLine[i]);
+
+	}
+	for (size_t i = 0; i < TOTAL_CELLS_Y; i++)
+	{
+		m_window.draw(hLine[i]);
+
+	}
+	for (size_t i = 0; i < TILES_ARRAY_SIZE; i++)
+	{
+		m_window.draw(tiles[i]);
+
+	}
+
 }
 
 void Game::cleanup()
