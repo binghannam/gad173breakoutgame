@@ -17,7 +17,7 @@
 #include "kage2dutil/sound_manager.h"
 
 class App
-{
+{		
 protected:
 	sf::RenderWindow m_window;
 	sf::Clock m_clock;

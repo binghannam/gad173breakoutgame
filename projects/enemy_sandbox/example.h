@@ -6,16 +6,16 @@
 #include "Frost.h"
 #include "demon.h"
 
-class Example : public App
+class OptionsMenu : public App
 {
 public:
-	Example();
-	virtual ~Example();
+	OptionsMenu();
+	virtual ~OptionsMenu();
 	virtual bool start();
 	virtual void update(float deltaT);
 	virtual void render();
 	virtual void cleanup();
-	static Example &inst();
+	static OptionsMenu &inst();
 
 	sf::Sprite *m_backgroundSprite;
 };

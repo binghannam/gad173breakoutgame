@@ -1,20 +1,20 @@
 #include "example.h"
 
-Example::Example(): App()
+OptionsMenu::OptionsMenu(): App()
 {
 }
 
-Example::~Example()
+OptionsMenu::~OptionsMenu()
 {
 }
 
-Example &Example::inst()
+OptionsMenu &OptionsMenu::inst()
 {
-	static Example s_instance;
+	static OptionsMenu s_instance;
 	return s_instance;
 }
 
-bool Example::start()
+bool OptionsMenu::start()
 {
 	// Initialise the physics system. Set the default gravity to 9.8m/s^2 down.
 	kage::Physics::init(b2Vec2(0, 9.8));
@@ -33,7 +33,7 @@ bool Example::start()
 	return true;
 }
 
-void Example::update(float deltaT)
+void OptionsMenu::update(float deltaT)
 {
 	// You need to update the physics system every game update
 
@@ -52,14 +52,14 @@ void Example::update(float deltaT)
 	ImGui::End();
 }
 
-void Example::render()
+void OptionsMenu::render()
 {
 	m_window.draw(*m_backgroundSprite);
 	// The next line draws the physics debug info. This should be removed in a final release.
 	kage::Physics::debugDraw(&m_window, 64);
 }
 
-void Example::cleanup()
+void OptionsMenu::cleanup()
 {
 	delete m_backgroundSprite;
 }

@@ -1,4 +1,5 @@
 #include "app.h"
+#include "Engine.h"
 
 #include "SFML/Graphics.hpp"
 #include "kage2dutil/system.h"

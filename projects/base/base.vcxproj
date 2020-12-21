@@ -98,13 +98,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="app.h" />
+    <ClInclude Include="Engine.h" />
     <ClInclude Include="example.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="OptionsMenu.h" />
+    <ClInclude Include="SceneManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="app.cpp" />
     <ClCompile Include="dependencies.cpp" />
     <ClCompile Include="example.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OptionsMenu.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\dev\components\kage2dutil\kage2dutil.vcxproj">
